@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link href="static/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <div class='cont'>
+                <h2>WELCOME<br> TO FACEMASK PREDICTION</h2>
+            </div>
+        <center>
+
+        <table border="1">
+            <tr>
+                <th>Họ Tên</th>
+                <th>Mã SV</th>
+            </tr>
+            <tr>
+                <th>Nguyễn Phương Anh</th>
+                <th>B19DCAT007</th>
+            </tr>
+            <tr>
+                <th>Nguyễn Minh Thuận</th>
+                <th>B19DCAT195</th>
+            </tr>
+            <tr>
+                <th>Phạm Khải Hoàn</th>
+                <th>B19DCAT075</th>
+            </tr>
+            <tr>
+                <th>Triệu Xuân Hùng</th>
+                <th>B19DCAT083</th>
+            </tr>
+        </table>
+    </center>
+            <br>
+            <br>
+
+        <form method="POST" action="{{url_for('home')}}" enctype="multipart/form-data">
+            <input type="file" name='image' class='btn'><br><br><br>
+            <input type="submit" class='btn'>
+        </form>
+
+    </center>
+
+    </body>
+</html>
